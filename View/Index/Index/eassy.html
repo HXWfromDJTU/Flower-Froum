@@ -1,0 +1,228 @@
+<html>
+
+	
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>花艺论坛</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+		<link rel="shortcut icon" href="__IMG__/icon.jpg">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta content="yes" name="apple-touch-fullscreen">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="__CSS__/light7.css">
+		<link rel="stylesheet" href="__CSS__/light7-swiper.css">
+		<link rel="stylesheet" href="__CSS__/light7-swipeout.css">
+		<link rel="apple-touch-icon" href="../../../assets/img/apple-touch-icon-114x114.png">
+		<link rel="stylesheet" href="__CSS__/font_1433748561_0232708.css">
+		<link rel="stylesheet" href="__CSS__/app.css">
+		<style>
+			/*header背景色调*/
+			
+			.bar {
+				background-color: rgba(50, 205, 50, 0.8);
+			}
+			
+			.bar-tab .tab-item {
+				color: #000000;
+			}
+			
+			.page-essay .swiper-container {
+				height: 13.0rem;
+				padding-bottom: 0;
+				margin-bottom: 0.5rem;
+			}
+			
+			.swiper-slide img {
+				height: 100%;
+				width: 100%;
+				display: inline;
+			}
+			
+			.swiper-pagination.swiper-pagination-bullets {
+				position: relative;
+				bottom: 1.0rem;
+			}
+			/*列表样式*/
+			
+			.list-block.media-list {
+				margin-top: 0;
+			}
+			/*第一行用户信息样式*/
+			
+			.item-title-row.first-row {
+				float: left;
+			}
+			
+			.item-title-row.first-row img {
+				display: inline;
+				width: 1.5rem;
+				height: 1.5rem;
+			}
+			
+			.item-title-row.first-row p {
+				display: inline;
+				margin: 0;
+				margin-left: 0.3rem;
+			}
+			
+			.item-title-row.first-row {
+				line-height: 1.5rem;
+			}
+			
+			.item-title-row.first-row .user-name {
+				font-size: 0.8rem;
+			}
+			
+			.item-title-row.first-row .post-time {
+				font-size: 0.5rem;
+				color: gray
+			}
+			/*.item-title-row.first-row .user-name,.item-title-row.first-row .post-time{
+				float: left;
+			}*/
+			/*第二行文章标题样式*/
+			
+			.item-title-row.second-row {
+				/*float: left;*/
+				width: 100%;
+				font-weight: bold;
+				margin: 0.7rem 0 0.5rem 0;
+			}
+			
+			.item-title-row.third-row {
+				float: left;
+			}
+			
+			.item-title-row.second-row .item-title {
+				font-weight: bold;
+			}
+			/*第三行文章信息样式*/
+			
+			.item-title-row.third-row p {
+				display: inline;
+				font-size: 0.5rem;
+				margin: 0 0.1rem;
+			}
+			
+			.item-media.target-img {
+				margin-right: 1.0rem;
+			}
+			
+			.item-media.target-img img {
+				width: 3.5rem;
+				height: 3.5rem;
+			}
+			
+			.page-essay .badge {
+				color: orangered;
+			}
+			
+			.list-block.media-list li {
+				border-bottom: 1px solid gray;
+			}
+			/*清除a标签的默认蓝色字体*/
+			
+			#page-essay a {
+				color: inherit;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="page-essay" class="page page-essay">
+			<header class="bar bar-nav">
+				<a class="icon icon-left pull-left back"></a>
+				<h1 class="title">文章</h1>
+			</header>
+			<div class="content">
+				<div class="swiper-container swiper-container-horizontal" data-space-between="10">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img class='card-cover' src="__IMG__/list-img(1).jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img class='card-cover' src="__IMG__/list-img(2).jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img class='card-cover' src="__IMG__/list-img(3).jpg" alt="">
+						</div>
+					</div>
+					<div class="swiper-pagination"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+				</div>
+				<div class="list-block media-list">
+					<ul id="essayContainer">
+						<!--<li>
+							<a href='{:U("index/essay_show")}'>
+								<div class="item-content">
+									<div class="item-inner">
+										<div class="item-title-row first-row">
+											<img src="__IMG__/icon.jpg">
+											<p class="user-name">赖头头</p>
+											<p class="post-time">19:23</p>
+										</div>
+										<div class="item-title-row second-row">
+											<div class="item-title">雷杜德毕生的花卉作品</div>
+										</div>
+										<div class="item-title-row third-row">
+											<p class="badge">花艺师</p>
+											<p>阅读<span>455</span></p>
+											<p>评论<span>124</span></p>
+											<p>喜欢<span>665</span></p>
+										</div>
+									</div>
+									<div class="item-media target-img"><img src="__IMG__/bg-img.jpg"></div>
+								</div>
+							</a>
+
+						</li>-->
+					</ul>
+				</div>
+
+			</div>
+			<script type='text/javascript' src='__JS__/zepto.js' charset='utf-8'></script>
+			<script type='text/javascript' src='__JS__/light7.js' charset='utf-8'></script>
+			<script type='text/javascript' src='__JS__/light7-swiper.js' charset='utf-8'></script>
+			<script type='text/javascript' src='__JS__/light7-swipeout.js' charset='utf-8'></script>
+
+			<script src="__JS__/app.js"></script>
+			<script src="__JS__/essay.js"></script>
+			<script>
+				$.loadEssay = function() {
+					$.ajax({
+						type: "post",
+						url: "{:U('media/loadEssay')}",
+						async: true,
+						data: {
+							/*keyword: keyword*/
+						},
+						success: function(d) {
+							var data = JSON.parse(d);
+							/*通过交易码来检查与后端的换流是否正常,0000表示正常*/
+							if(data.code == "0000") {
+								var tempStr = [];
+								data.data.forEach(function(arg, index) {
+									tempStr.push('<li onclick="$.eaasyDetail('+arg.essayid+','+arg.authorid+')"><a><div class="item-content"><div class="item-inner">');
+									tempStr.push('<div class="item-title-row first-row"><img src=' + arg.headimgsrc + '>');
+									tempStr.push('<p class="user-name">' + arg.nickname + '</p><p class="post-time">' + arg.posttime.substring(5,16) + '</p></div>');
+									tempStr.push('<div class="item-title-row second-row"><div class="item-title">' + arg.title + '</div></div>');
+									tempStr.push('<div class="item-title-row third-row"><p class="badge">' + arg.tag + '</p><p>阅读<span>'+ arg.readnum+'</span></p><p>评论<span>3</span></p></div></div>');
+									tempStr.push('<div class="item-media target-img"><img src=' + arg.img1 + '></div></div></a></li>');
+								});
+								$('#essayContainer').empty();	
+								$('#essayContainer').append(tempStr.join(''));
+							} else {
+								$.toast("通讯异常");
+							}
+						}
+					});
+				}
+				$.loadEssay();
+				$.eaasyDetail =function(essayID,authorID){
+					window.location.href='http://localhost/hyltxt/index.php/index/essay_show.html?essayID='+essayID+'&authorID='+authorID;
+				}
+			</script>
+	</body>
+
+</html>

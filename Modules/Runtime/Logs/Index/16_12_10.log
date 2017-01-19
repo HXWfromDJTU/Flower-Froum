@@ -1,0 +1,92 @@
+[ 2016-12-10T15:39:28+08:00 ] ::1 /hyltxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+
+[ 2016-12-10T21:49:42+08:00 ] ::1 /hyltxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001618s ]
+ERR: SQLSTATE[HY000] [1049] Base 'hyltxt' inconnue
+
+[ 2016-12-10T21:51:51+08:00 ] ::1 /hyltxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001703s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'hyltxt.fs_post_media' n'existe pas
+
+[ 2016-12-10T21:53:45+08:00 ] ::1 /hyltxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'hyltxt.fs_post_media' n'existe pas
+
+[ 2016-12-10T21:53:47+08:00 ] ::1 /hyltxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'hyltxt.fs_post_media' n'existe pas
+
+[ 2016-12-10T22:00:31+08:00 ] ::1 /hyltxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'hyltxt.fs_post_media' n'existe pas
+
+[ 2016-12-10T22:01:04+08:00 ] ::1 /hyltxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'hyltxt.fs_post_media' n'existe pas
+
+[ 2016-12-10T22:01:41+08:00 ] ::1 /hyltxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+ERR: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2016-12-10T22:02:01+08:00 ] ::1 /hyltxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001877s ]
+ERR: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2016-12-10T22:25:09+08:00 ] ::1 /hyltxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+ERR: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+

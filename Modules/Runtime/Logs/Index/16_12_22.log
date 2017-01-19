@@ -1,0 +1,120 @@
+[ 2016-12-22T00:42:38+08:00 ] ::1 /hyltxt/index.php/action/pushcomment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010543s ]
+SQL: SHOW COLUMNS FROM `action` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `action` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `media` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0052s ]
+SQL: SELECT `id`,`nickname`,`headImgSrc` FROM `user` WHERE ( username="" )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\PHP\myPHP\hyltxt\Modules\Index\Model\ActionModel.class.php 第 40 行.
+SQL: INSERT INTO `action` (`toMediaID`,`fromUserID`,`content`,`actionTime`,`actionType`) VALUES ('257',NULL,'加班好困啊','2016-12-22 00:42:38','2') [ RunTime:0.0925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.055937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.056071s ]
+
+[ 2016-12-22T00:42:38+08:00 ] ::1 /hyltxt/index.php/action/pushcomment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `action` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `action` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `media` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0045s ]
+SQL: SELECT `id`,`nickname`,`headImgSrc` FROM `user` WHERE ( username="" )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 D:\PHP\myPHP\hyltxt\Modules\Index\Model\ActionModel.class.php 第 40 行.
+SQL: INSERT INTO `action` (`toMediaID`,`fromUserID`,`content`,`actionTime`,`actionType`) VALUES ('257',NULL,'加班好困啊','2016-12-22 00:42:38','2') [ RunTime:0.0648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2016-12-22T21:20:22+08:00 ] ::1 /hyltxt/index.php/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012687s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000425s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016324s ]
+
+[ 2016-12-22T21:20:24+08:00 ] ::1 /hyltxt/index.php/action/loadmessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+SQL: SHOW COLUMNS FROM `action` [ RunTime:0.0814s ]
+SQL: SHOW COLUMNS FROM `action` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.2106s ]
+SQL: SHOW COLUMNS FROM `media` [ RunTime:0.1448s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0074s ]
+SQL: SELECT `mediaType`,`toMediaID`,`headImgSrc`,`nickname`,`img1`,`actionType`,`actionTime` FROM `action` INNER JOIN user ON user.id=action.fromUserID INNER JOIN media ON media.id=action.toMediaID  WHERE ( posterID="3" and user.id <>"3" )  [ RunTime:0.2300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001721s ]
+
+[ 2016-12-22T21:20:25+08:00 ] ::1 /hyltxt/index.php/media/loadmypost.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001648s ]
+SQL: SHOW COLUMNS FROM `media` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `media` [ RunTime:0.0130s ]
+SQL: SELECT `img1`,`mediaType`,`id` FROM `media` WHERE `posterID` = 3  [ RunTime:0.5151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001729s ]
+
+[ 2016-12-22T21:20:25+08:00 ] ::1 /hyltxt/index.php/user/loadmymessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002896s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1456s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0044s ]
+SQL: SELECT `nickname`,`headImgSrc`,`bgImg`,`follow`,`follower` FROM `user` WHERE ( username="huangxuanwei" )  [ RunTime:0.0811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001743s ]
+
+[ 2016-12-22T21:20:25+08:00 ] ::1 /hyltxt/index.php/action/loadmycollection.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `action` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `action` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `media` [ RunTime:0.0106s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+SQL: SELECT `img1`,`mediaType`,`id` FROM `action` INNER JOIN media ON media.id=action.toMediaID  WHERE `fromUserID` = '3' AND `actionType` = 1  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001783s ]
+
